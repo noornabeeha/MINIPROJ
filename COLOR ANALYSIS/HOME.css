@@ -1,0 +1,5 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/31/51/ba/3151ba6504eddfa55e6c993c30566096.jpg); /* Path to your image */
+    background-repeat:no-repeat;/* Prevents repeating */
+    background-size: cover; /* Makes the image cover the whole page */
+}
