@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const video = document.getElementById('video');
         const canvas = document.getElementById('imageCanvas');
         const ctx = canvas.getContext('2d');
@@ -118,3 +119,5 @@ const video = document.getElementById('video');
         }
 
         determineSeason("#FF5733");
+=======
+>>>>>>> d95c860428d6be77b2f9c0b83611233e5034ba17
