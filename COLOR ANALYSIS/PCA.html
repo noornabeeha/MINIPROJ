@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PERSONAL COLOR ANALYSIS</title>
     <link rel="stylesheet" href="stylePCA.css"></head>
+    
 </head>
 <body>
-    
+    <div class="container">
+        <div class="tools-container">
+            <div class="video-container">
+                <video id="video" autoplay></video>
+                <canvas id="imageCanvas"></canvas>
+            </div>
+            <div class="options">
+                <button id="startCamera">Turn on Camera</button>
+                <button id="snapPhoto">Snap</button>
+                <label for="uploadImage" class="custom-file-input">Choose Image</label>
+                <input type="file" id="uploadImage" accept="image/*">
+                <button id="colorPickerButton" style="display: none;">Pick Color</button>
+            </div>
+            <p id="pickedColor">You have picked: <span id="colorHex">None</span></p>
+        </div>
+
+        <!-- Right Side: Season Result -->
+        <div class="result-container">
+            <h2>Seasonal Color Analysis</h2>
+            <p id="seasonResult">Pick a color to see your season!</p>
+            <div class="palette" id="colorPalette"></div> <!-- Added this line -->
+        </div>
+        
+    </div>
+    <script src="scriptPCA.js"></script>
+
 </body>
 </html>
