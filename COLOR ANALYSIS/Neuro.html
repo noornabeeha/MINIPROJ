@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuromarketing/Color Branding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 50px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .color-box {
+            width: 100%;
+            height: 100px;
+            border-radius: 5px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .color-box span {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .search-container {
+            margin-top: 30px;
+        }
+
+        .search-bar {
+            padding: 15px;
+            width: 300px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .search-btn {
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .search-btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Neuromarketing/Color Branding</h1>
+</header>
+
+<div class="content">
+    <p>NEURO-BRANDING (Color's role cultivating emotions of a brand)
+        Webpage - to create logos connected with emotions</p>
+       <ul>
+        1. Let the user choose what emotion their brand stands for
+        2. categorize emotion according to color from researched resources
+        3. integrate AI logo generator 
+        4. produce logos in all spaces 
+          (wordmark, lettermark/monogram, pictorial mark, emblem, combination, abstract, and dynamic logos)
+        5. give free printables for better use (in case of shipping/delivery)</ul>
+
+    <div class="colors">
+        <div class="color-box" style="background-color: #FF5733;">
+            <span>Red: Passion & Energy</span>
+        </div>
+        <div class="color-box" style="background-color: #33FF57;">
+            <span>Green: Growth & Calm</span>
+        </div>
+        <div class="color-box" style="background-color: #3357FF;">
+            <span>Blue: Trust & Stability</span>
+        </div>
+        <div class="color-box" style="background-color: #FFFF33;">
+            <span>Yellow: Optimism & Happiness</span>
+        </div>
+        <div class="color-box" style="background-color: #FF33FF;">
+            <span>Magenta: Creativity & Innovation</span>
+        </div>
+        <div class="color-box" style="background-color: #33FFFF;">
+            <span>Aqua: Clarity & Refreshment</span>
+        </div>
+        <div class="color-box" style="background-color: #FF6347;">
+            <span>Tomato: Warmth & Attention</span>
+        </div>
+        <div class="color-box" style="background-color: #FF8C00;">
+            <span>Orange: Fun & Enthusiasm</span>
+        </div>
+        <div class="color-box" style="background-color: #8A2BE2;">
+            <span>Blue-Violet: Wisdom & Dignity</span>
+        </div>
+        <div class="color-box" style="background-color: #A52A2A;">
+            <span>Brown: Reliability & Comfort</span>
+        </div>
+        <div class="color-box" style="background-color: #D3D3D3;">
+            <span>Gray: Neutrality & Professionalism</span>
+        </div>
+        <div class="color-box" style="background-color: #000000;">
+            <span>Black: Luxury & Elegance</span>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="logoSearch" class="search-bar" placeholder="Search AI Logo">
+        <button class="search-btn" onclick="generateLogo()">Generate Logo</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Neuromarketing/Color Branding. All rights reserved.</p>
+</footer>
+
+<script>
+    function generateLogo() {
+        const query = document.getElementById('logoSearch').value;
+        if (query) {
+            alert('Generating AI logo for: ' + query);
+        } else {
+            alert('Please enter a search term!');
+        }
+    }
+</script>
+
+</body>
+</html>
