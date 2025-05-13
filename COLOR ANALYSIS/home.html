@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://i.pinimg.com/736x/53/37/5e/53375ef247e7f303f6b26dd327389c23.jpg') no-repeat center center/cover;
+      color: #333;
+    }
+
+    /* Navigation Bar Styles */
+    .navbar {
+      background-color: #f5f5dc; /* Cream color */
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #5a1b08;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Main Content Styles */
+    .main-content {
+      padding: 60px 20px;
+      text-align: center;
+      background: url(https://i.pinimg.com/736x/e6/52/0a/e6520a56ee45f08fba5649cbe26fdc1c.jpg);
+      margin: 40px;
+        background-size: cover;
+      border-radius: 10px;
+    }
+
+    .main-content h1 {
+      margin-bottom: 30px;
+      font-size: 36px;
+      color: #5a1b08;
+    }
+
+    .main-content button {
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #5a1b08;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .main-content button:hover {
+      background-color: #7a2d11;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #ccc;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Sign Up</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Welcome to Our Website</h1>
+    <button onclick="location.href='final.html'">Color Analysis</button>
+    <button onclick="location.href='neurofin.html'">NeuroBranding</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    This website provides personalized color analysis and neurobranding services to enhance your self-image and marketing appeal. Explore your best colors and brand identity today!
+  </footer>
+
+</body>
+</html>
