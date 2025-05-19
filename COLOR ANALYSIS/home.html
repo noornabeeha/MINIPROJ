@@ -3,101 +3,214 @@
 <head>
   <meta charset="UTF-8" />
   <title>Home Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: url('https://i.pinimg.com/736x/53/37/5e/53375ef247e7f303f6b26dd327389c23.jpg') no-repeat center center/cover;
-      color: #333;
-    }
-
-    /* Navigation Bar Styles */
-    .navbar {
-      background-color: #f5f5dc; /* Cream color */
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    .navbar a {
-      float: left;
-      display: block;
-      color: #5a1b08;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .navbar a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    /* Main Content Styles */
-    .main-content {
-      padding: 60px 20px;
-      text-align: center;
-      background: url(https://i.pinimg.com/736x/e6/52/0a/e6520a56ee45f08fba5649cbe26fdc1c.jpg);
-      margin: 40px;
-        background-size: cover;
-      border-radius: 10px;
-    }
-
-    .main-content h1 {
-      margin-bottom: 30px;
-      font-size: 36px;
-      color: #5a1b08;
-    }
-
-    .main-content button {
-      padding: 15px 30px;
-      margin: 10px;
-      font-size: 16px;
-      cursor: pointer;
-      background-color: #5a1b08;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      transition: background-color 0.3s;
-    }
-
-    .main-content button:hover {
-      background-color: #7a2d11;
-    }
-
-    /* Footer Styles */
-    footer {
-      background-color: #ccc;
-      color: #333;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
 </head>
-<body>
+<body style="margin:0; padding:0; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(to right, #ffe5b4, #fff7e6); color: #3e2f1c;">
 
   <!-- Navigation Bar -->
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="login.html">Login</a>
-    <a href="signup.html">Sign Up</a>
+  <div style="background-color: #fdf5e6; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 10px 0;">
+    <a href="index.html" style="float: left; display: block; color: #5a1b08; text-align: center; padding: 14px 20px; text-decoration: none; font-weight: bold; font-size: 16px;">Home</a>
+    <a href="login.html" style="float: left; display: block; color: #5a1b08; text-align: center; padding: 14px 20px; text-decoration: none; font-weight: bold; font-size: 16px;">Log In</a>
+    <a href="signup.html" style="float: left; display: block; color: #5a1b08; text-align: center; padding: 14px 20px; text-decoration: none; font-weight: bold; font-size: 16px;">Sign Up</a>
+    <div style="clear: both;"></div>
   </div>
 
-  <!-- Main Content -->
-  <div class="main-content">
-    <h1>Welcome to Our Website</h1>
-    <button onclick="location.href='final.html'">Color Analysis</button>
-    <button onclick="location.href='neurofin.html'">NeuroBranding</button>
+<!-- Main Content -->
+<div style="padding: 60px 20px; text-align: center; background: url('https://i.pinimg.com/736x/80/cc/83/80cc836b392be6329ea614d6e7430d55.jpg') no-repeat center center/cover; margin: 40px; border-radius: 15px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); color: #f4f1ed;">
+ <h1 style="
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: 'Baskerville', serif;
+    color: #ebcf1a; 
+    text-shadow: 3px 3px 6px rgba(34, 34, 34, 0.9); /* dark shadow */
+   
+    line-height: 1.2;
+    text-transform: uppercase;
+  ">
+  UNVEIL YOUR HUE.<br>EMBRACE YOUR PALETTE
+</h1>
+
+
+
+  <button onclick="location.href='final.html'" style="padding: 15px 30px; margin: 10px; font-size: 18px; cursor: pointer; background: linear-gradient(45deg, #00264d, #004080); color: white; border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 64, 128, 0.7); transition: background 0.3s ease;">
+    Color Analysis
+  </button>
+  <button onclick="location.href='neurofin.html'" style="padding: 15px 30px; margin: 10px; font-size: 18px; cursor: pointer; background: linear-gradient(45deg, #001f3f, #003366); color: white; border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 51, 102, 0.7); transition: background 0.3s ease;">
+    NeuroBranding
+  </button>
+</div>
+
+
+
+  <!-- About Us Section -->
+  <div style="padding: 40px 20px; text-align: center; background-color: #fff7e6; margin: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    <h2 style="color: #5a1b08; font-size: 32px;">About Us</h2>
+    <p style="font-size: 16px; max-width: 800px; margin: 0 auto; color: #4b2e1f;">
+      We are a passionate team of designers, marketers, and psychologists who believe in the transformative power of color and identity. Our goal is to help individuals and brands discover their most authentic and impactful visual presence. Through personalized color analysis and cutting-edge neurobranding, we bring clarity, confidence, and charisma to your personal or professional image.
+    </p>
+   <div style="margin-top: 30px;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/FdcEleFQAlk" 
+    title="Color Psychology Video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  </iframe>
+</div>
+
   </div>
+     <!-- Color Palette Gallery -->
+<div style="padding: 40px 20px; background-color: #fffaf0; text-align: center; margin: 30px; border-radius: 12px;">
+  <h2 style="color: #5a1b08; font-size: 30px; margin-bottom: 20px;">Explore Our Color Palettes</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 960px; margin: 0 auto;">
+
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/clear-winter.5f887758.png" alt="Palette A" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/cool-winter.f801e881.png" alt="Palette B" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/deep-winter.a50cd113.png" alt="Palette C" style="width: 100%; border-radius: 8px;">
+    </div>
+
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/soft-summer.efcaa447.png" alt="Palette D" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/cool-summer.8128e21d.png" alt="Palette E" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/light-summer.99b61cb6.png" alt="Palette F" style="width: 100%; border-radius: 8px;">
+    </div>
+
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/clear-spring.3a8c97a2.png" alt="Palette G" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/warm-spring.847ab9ef.png" alt="Palette H" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/light-spring.26a828da.png" alt="Palette I" style="width: 100%; border-radius: 8px;">
+    </div>
+
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/soft-autumn.1d8c0e43.png" alt="Palette J" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/warm-autumn.f5825739.png" alt="Palette K" style="width: 100%; border-radius: 8px;">
+    </div>
+    <div style="flex: 0 0 calc(33.333% - 20px); box-sizing: border-box;">
+      <img src="https://colorwise.me/images/celebs/palettes/deep-autumn.1d512dd9.png" alt="Palette L" style="width: 100%; border-radius: 8px;">
+    </div>
+
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+  <!-- How to Color Analyze Yourself Section -->
+<div style="padding: 60px 20px; background-color: #fff7e6; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 30px auto; max-width: 1200px;">
+
+  <h2 style="color: #5a1b08; font-size: 32px; text-align: center; margin-bottom: 40px;">How to Color Analyze Yourself</h2>
+
+  <!-- Two-column Text Layout -->
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center; margin-bottom: 50px;">
+    
+    <!-- Step-by-Step Column -->
+    <div style="flex: 1 1 400px; max-width: 500px;">
+      <h3 style="color: #5a1b08; font-size: 22px; margin-bottom: 15px;">Step-by-Step Self Analysis</h3>
+      <ul style="font-size: 15px; color: #4b2e1f; line-height: 1.6; padding-left: 20px;">
+        <li><strong>Step 1:</strong> Stand in natural daylight without makeup, wearing a white top.</li>
+        <li><strong>Step 2:</strong> Hold different colored fabrics (warm and cool tones) near your face.</li>
+        <li><strong>Step 3:</strong> Observe which colors make your skin glow, eyes sparkle, and reduce shadows.</li>
+        <li><strong>Step 4:</strong> Note whether warm (gold, coral) or cool (silver, blue) tones flatter you more.</li>
+        <li><strong>Step 5:</strong> Use these cues to find your seasonal palette: Spring, Summer, Autumn, or Winter.</li>
+      </ul>
+    </div>
+
+    <!-- How It Helps Column -->
+    <div style="flex: 1 1 400px; max-width: 500px;">
+      <h3 style="color: #5a1b08; font-size: 22px; margin-bottom: 15px;">Why Color Analysis Helps</h3>
+      <p style="font-size: 15px; color: #4b2e1f; line-height: 1.6;">
+        Understanding your ideal colors enhances your appearance by:
+      </p>
+      <ul style="font-size: 15px; color: #4b2e1f; line-height: 1.6; padding-left: 20px;">
+        <li>Making your skin look clearer and brighter</li>
+        <li>Enhancing natural eye and hair color</li>
+        <li>Helping you choose flattering clothing, makeup, and accessories</li>
+        <li>Improving confidence in your style choices</li>
+        <li>Saving time and money by avoiding colors that don’t suit you</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Two Images Side-by-Side -->
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center;">
+    
+    <div style="flex: 1 1 400px; max-width: 500px; text-align: center;">
+      <img 
+        src="https://colorwise.me/images/misc/self-test.a2217fcb.png" 
+        alt="Color Analysis Example 1" 
+        style="width: 100%; height: auto; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.2);"
+      >
+    </div>
+
+    <div style="flex: 1 1 400px; max-width: 500px; text-align: center;">
+      <img 
+        src=https://colorwise.me/images/misc/apps.abd94bb2.png
+        alt="Color Analysis Example 2" 
+        style="width: 100%; height: auto; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.2);"
+      >
+    </div>
+
+  </div>
+</div>
+<!-- Picture to Palette & Capsule Palette Section -->
+<div style="padding: 60px 20px; background-color: #f0f4f8; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin: 30px auto; max-width: 1200px;">
+
+  <h2 style="color: #333e48; font-size: 32px; text-align: center; margin-bottom: 40px;">Picture to Palette & Capsule Palette</h2>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center;">
+    
+    <!-- Picture to Palette Column -->
+    <div style="flex: 1 1 400px; max-width: 500px; text-align: center;">
+      <h3 style="color: #2c3e50; font-size: 24px; margin-bottom: 20px;">Picture to Palette</h3>
+      <p style="font-size: 15px; color: #4b4b4b; margin-bottom: 20px; line-height: 1.5;">
+        Upload a photo and get an instant color palette based on the main colors of the image. Perfect for designing outfits or interiors inspired by your favorite pictures.
+      </p>
+      <img
+        src=https://colorwise.me/images/misc/capsule-palette.f767f875.png
+        alt="Picture to Palette Example"
+        style="width: 100%; height: auto; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.1);"
+      >
+    </div>
+
+    <!-- Capsule Palette Column -->
+    <div style="flex: 1 1 400px; max-width: 500px; text-align: center;">
+      <h3 style="color: #2c3e50; font-size: 24px; margin-bottom: 20px;">Capsule Palette</h3>
+      <p style="font-size: 15px; color: #4b4b4b; margin-bottom: 20px; line-height: 1.5;">
+        A curated set of essential colors designed to mix and match effortlessly, helping you build a versatile and stylish wardrobe or design scheme.
+      </p>
+      <img
+        src=https://colorwise.me/images/misc/picture-to-palette.95c69b3d.png
+        alt="Capsule Palette Example"
+        style="width: 100%; height: auto; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.1);"
+      >
+    </div>
+
+  </div>
+</div>
 
   <!-- Footer -->
-  <footer>
-    This website provides personalized color analysis and neurobranding services to enhance your self-image and marketing appeal. Explore your best colors and brand identity today!
+  <footer style="background-color: #f8e9d2; color: #5a1b08; text-align: center; padding: 25px 15px; font-size: 14px; font-style: italic; box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);">
+    This website provides <strong>personalized color analysis</strong> and <strong>neurobranding services</strong> to enhance your self-image and marketing appeal.<br>
+    <em>Explore your best colors and brand identity today!</em>
   </footer>
 
 </body>
